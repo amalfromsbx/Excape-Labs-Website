@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import LabsPage from './components/LabsPage';
@@ -35,6 +35,7 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/" element={<LabsPage />} />
             <Route path="/lms-pricing" element={<LmsPricingPage />} />
+            <Route path="/labs/lms-pricing" element={<Navigate to="/lms-pricing" replace />} />
           </Routes>
         </main>
         <Footer />

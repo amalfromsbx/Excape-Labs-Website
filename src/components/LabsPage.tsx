@@ -210,7 +210,7 @@ const LabsPage: React.FC = () => {
                 <p className="text-xl text-slate-300 leading-relaxed mb-8">
                   Manage your courses fully automated. A powerful, branded Learning Management System designed to host, sell, and scale your educational content. Complete setup within 7 days.
                 </p>
-                <Link to="/labs/lms-pricing" className="inline-flex bg-[#34A853] hover:bg-[#2E8B46] text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg shadow-[#34A853]/20 transition-all hover:-translate-y-1">
+                <Link to="/lms-pricing" className="inline-flex bg-[#34A853] hover:bg-[#2E8B46] text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg shadow-[#34A853]/20 transition-all hover:-translate-y-1">
                   View Pricing & Plans
                 </Link>
              </div>

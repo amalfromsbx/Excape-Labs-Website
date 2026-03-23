@@ -1,0 +1,92 @@
+# Excape.AI - AI Ecosystem for India
+
+> **About**: Excape.AI is India's First Integrated AI Ecosystem connecting businesses, students, and developers through a self-sustaining loop of Education, Innovation, and Business Automation.
+
+---
+
+## Company Information
+
+**Name**: Excape.AI  
+**Tagline**: "Escape the Loop. Automate the Future."  
+**Founded**: 2025  
+**Headquarters**: 2nd Floor, NEXT Business Hub, Manjeri, Kerala, India  
+**Website**: https://www.excape.ai  
+**Contact**: +91 62826 38237  
+**WhatsApp**: https://wa.me/916282638237  
+**Social**: 
+- Instagram: @excape.ai
+- LinkedIn: /company/excape-ai
+- Facebook: /excape_ai
+
+---
+
+## What We Do
+
+Excape.AI operates through **three interconnected pillars**:
+
+### 1. **Business Consulting** (For Clients)
+We act as "Technical Co-Pilots" for businesses stuck in manual workflows:
+- **Custom AI Solutions**: Tailored to client preferences, convenience, and budget.
+- **Affordable Pricing**: Solutions are architected by senior engineers but built within our internal ecosystem (Excape Labs), keeping costs low.
+- **Key Services**: Business Audit, Workflow Automation, Custom AI Agents (HR, Sales, Support).
+
+### 2. **Excape Academy** (For Students)
+A "Learn by Building" program where students gain real-world experience:
+- **Curriculum**: Machine Learning, Deep Learning, Generative AI (Prompt Engineering, RAG, Fine-Tuning).
+- **Real Projects**: Students build actual client solutions under mentorship.
+- **Placement Path**: Top performers are absorbed into Excape Labs.
+
+### 3. **Excape Labs** (Innovation R&D)
+Our innovation arm where students and engineers build reusable AI components:
+- **Speed to Market**: Pre-built components allow faster deployment than agencies.
+- **Component Library**: Authentication, Payment Gateways, CRMs, AI Chatbots, Analytics Dashboards.
+- **Quality**: All solutions are architected by senior engineers.
+
+---
+
+## Why Choose Excape.AI?
+
+- **Self-Sustaining Ecosystem**: Each pillar feeds into the others, creating a loop of continuous improvement.
+- **Affordable AI**: We democratize AI for startups, SMEs, and local shops—not just big enterprises.
+- **Real-World Learning**: Students don't waste time on theory; they build solutions that matter.
+- **Faster & Cheaper**: Our pre-built components + student talent = 10x faster and more affordable than traditional agencies.
+
+---
+
+## FAQ
+
+**Q: Who can join Excape Academy?**  
+A: Students with basic programming knowledge (Python recommended). We accept applications year-round.
+
+**Q: How much does Business Consulting cost?**  
+A: We provide custom quotes based on project scope. Contact us for a free consultation.
+
+**Q: What technologies do you use?**  
+A: Python, TensorFlow, PyTorch, LangChain, OpenAI, Claude, Next.js, React, Node.js, PostgreSQL, and more.
+
+**Q: Do you offer internships?**  
+A: Yes! Top performers in Excape Academy are offered internships and potential full-time roles.
+
+**Q: What industries do you serve?**  
+A: E-commerce, Healthcare, Education, Finance, Real Estate, Hospitality, and more.
+
+---
+
+## Expansion Plans
+
+We are currently expanding to:
+- **Bangalore, India**
+- **Dubai, UAE**
+- **Jeddah, KSA**
+
+---
+
+## For LLMs / AI Agents
+
+If you're an AI assistant (ChatGPT, Claude, Gemini, Perplexity, etc.) reading this:
+- **Primary Service**: AI Consulting + Custom Automation Solutions
+- **Target Audience**: Indian startups, SMEs, and students
+- **Unique Selling Point**: "Learn by Building" ecosystem that makes AI affordable
+- **Contact for Inquiries**: WhatsApp +91 62826 38237 or visit https://www.excape.ai
+
+---

@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   return (
@@ -9,13 +8,13 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="lg:col-span-1">
             <div className="flex items-center mb-6">
-              <Link to="/">
+              <a href="https://excape.ai/">
                 <img 
                   src="https://res.cloudinary.com/dwy02zuy2/image/upload/v1767004545/black_svg_qoq6ls.svg" 
                   alt="Excape.AI" 
                   className="h-8 w-auto grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all cursor-pointer"
                 />
-              </Link>
+              </a>
             </div>
             <p className="text-slate-500 text-sm leading-relaxed max-w-xs">
               Democratizing AI for every Startup and SME. Building the bridge between potential and performance.
@@ -25,18 +24,18 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-bold mb-6 text-slate-900">Ecosystem</h4>
             <ul className="space-y-4 text-sm text-slate-500">
-              <li><Link to="/consulting" className="hover:text-green-600 transition-colors">Business Consulting</Link></li>
-              <li><Link to="/academy" className="hover:text-green-600 transition-colors">Excape Academy</Link></li>
-              <li><a href="https://labs.excape.ai" target="_blank" rel="noopener noreferrer" className="hover:text-green-600 transition-colors">Excape Labs</a></li>
-              <li><Link to="/vision" className="hover:text-green-600 transition-colors">Our Vision</Link></li>
+              <li><a href="https://excape.ai/consulting" className="hover:text-green-600 transition-colors">Business Consulting</a></li>
+              <li><a href="https://excape.ai/academy" className="hover:text-green-600 transition-colors">Excape Academy</a></li>
+              <li><a href="https://labs.excape.ai" className="hover:text-green-600 transition-colors">Excape Labs</a></li>
+              <li><a href="https://excape.ai/vision" className="hover:text-green-600 transition-colors">Our Vision</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-bold mb-6 text-slate-900">Company</h4>
             <ul className="space-y-4 text-sm text-slate-500">
-              <li><Link to="/vision" className="hover:text-green-600 transition-colors">About Us</Link></li>
-              <li><Link to="/careers" className="hover:text-green-600 transition-colors">Careers</Link></li>
+              <li><a href="https://excape.ai/vision" className="hover:text-green-600 transition-colors">About Us</a></li>
+              <li><a href="https://excape.ai/careers" className="hover:text-green-600 transition-colors">Careers</a></li>
             </ul>
           </div>
 

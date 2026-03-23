@@ -34,8 +34,9 @@ const App: React.FC = () => {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<LabsPage />} />
-            <Route path="/lms-pricing" element={<LmsPricingPage />} />
-            <Route path="/labs/lms-pricing" element={<Navigate to="/lms-pricing" replace />} />
+            <Route path="/lms" element={<LmsPricingPage />} />
+            <Route path="/lms-pricing" element={<Navigate to="/lms" replace />} />
+            <Route path="/labs/lms-pricing" element={<Navigate to="/lms" replace />} />
           </Routes>
         </main>
         <Footer />

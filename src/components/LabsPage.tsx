@@ -14,10 +14,10 @@ const LabsPage: React.FC = () => {
   return (
     <div className="min-h-screen swirl-bg text-[#202124] selection:bg-[#4ADE80]/30 pb-20 pt-24">
       <div className="max-w-7xl mx-auto px-6 py-8">
-        <Link to="/" className="flex items-center gap-2 text-slate-500 hover:text-[#34A853] transition-colors mb-16 text-sm font-bold group">
+        <a href="https://excape.ai/" className="flex items-center gap-2 text-slate-500 hover:text-[#34A853] transition-colors mb-16 text-sm font-bold group">
           <span className="material-symbols-outlined text-sm transition-transform group-hover:-translate-x-1">arrow_back</span> 
           BACK TO HUB
-        </Link>
+        </a>
 
         <div className="mb-20">
           <div className="flex gap-6">
@@ -210,7 +210,7 @@ const LabsPage: React.FC = () => {
                 <p className="text-xl text-slate-300 leading-relaxed mb-8">
                   Manage your courses fully automated. A powerful, branded Learning Management System designed to host, sell, and scale your educational content. Complete setup within 7 days.
                 </p>
-                <Link to="/lms-pricing" className="inline-flex bg-[#34A853] hover:bg-[#2E8B46] text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg shadow-[#34A853]/20 transition-all hover:-translate-y-1">
+                <Link to="/lms" className="inline-flex bg-[#34A853] hover:bg-[#2E8B46] text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg shadow-[#34A853]/20 transition-all hover:-translate-y-1">
                   View Pricing & Plans
                 </Link>
              </div>

@@ -1,7 +1,4 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-
-const Header: React.FC = () => {
+import React, { useState } from 'react';const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const openWhatsApp = () => {
@@ -14,12 +11,12 @@ const Header: React.FC = () => {
   };
 
   const navLinks = [
-    { name: 'Ecosystem', href: '/#ecosystem' },
-    { name: 'How it Works', href: '/#how-it-works' },
-    { name: 'Why Us', href: '/#why-us' },
-    { name: 'FAQ', href: '/#faq' },
-    { name: 'AI Courses', href: '/ai-courses' },
-    { name: 'Careers', href: '/careers' },
+    { name: 'Ecosystem', href: 'https://excape.ai/#ecosystem' },
+    { name: 'How it Works', href: 'https://excape.ai/#how-it-works' },
+    { name: 'Why Us', href: 'https://excape.ai/#why-us' },
+    { name: 'FAQ', href: 'https://excape.ai/#faq' },
+    { name: 'AI Courses', href: 'https://excape.ai/ai-courses' },
+    { name: 'Careers', href: 'https://excape.ai/careers' },
   ];
 
   return (
@@ -27,33 +24,33 @@ const Header: React.FC = () => {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center">
-            <Link to="/" className="hover:opacity-80 transition-opacity">
+            <a href="https://excape.ai/" className="hover:opacity-80 transition-opacity">
               <img
                 src="https://res.cloudinary.com/dwy02zuy2/image/upload/v1767004545/black_svg_qoq6ls.svg"
                 alt="Excape.AI"
                 className="h-6 w-auto"
               />
-            </Link>
+            </a>
           </div>
 
           <div className="hidden md:flex flex-1 items-center justify-end pr-6 gap-6 lg:gap-8">
             {navLinks.map((link) => (
-              <Link
+              <a
                 key={link.name}
-                to={link.href}
+                href={link.href}
                 className={`text-sm font-medium transition-colors ${link.name === 'Careers' ? 'text-green-600 font-semibold' : 'text-slate-600 hover:text-[#34A853]'}`}
               >
                 {link.name}
-              </Link>
+              </a>
             ))}
 
             <div className="relative flex flex-col items-center group mt-1">
-              <Link
-                to="/web-architect"
+              <a
+                href="https://excape.ai/web-architect"
                 className="text-sm font-semibold text-slate-800 hover:text-[#34A853] transition-colors"
               >
                 AI Web Architect Course
-              </Link>
+              </a>
               <div className="absolute -bottom-3.5">
                 <span className="bg-gradient-to-r from-green-500 to-emerald-400 text-white text-[9px] font-bold uppercase px-1.5 py-0.5 rounded border border-white/50 shadow-sm leading-none block group-hover:-translate-y-0.5 transition-transform tracking-wider">
                   New
@@ -113,24 +110,24 @@ const Header: React.FC = () => {
 
           <div className="flex flex-col px-8 gap-8 mt-4">
             {navLinks.map((link) => (
-              <Link
+              <a
                 key={link.name}
-                to={link.href}
+                href={link.href}
                 className={`text-[17px] transition-colors ${link.name === 'Careers' ? 'text-green-600 font-bold' : 'font-bold text-slate-700 hover:text-[#34A853]'}`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.name}
-              </Link>
+              </a>
             ))}
 
             <div className="relative flex flex-col items-start w-fit group">
-              <Link
-                to="/web-architect"
+              <a
+                href="https://excape.ai/web-architect"
                 onClick={() => setIsMenuOpen(false)}
                 className="text-[17px] font-bold text-slate-800 hover:text-[#34A853] transition-colors m-0"
               >
                 AI Web Architect Course
-              </Link>
+              </a>
               <div className="absolute -bottom-3 right-0">
                 <span className="bg-gradient-to-r from-green-500 to-emerald-400 text-white text-[9px] font-bold uppercase px-1.5 py-0.5 rounded border border-white/50 shadow-sm leading-none block tracking-wider">
                   New

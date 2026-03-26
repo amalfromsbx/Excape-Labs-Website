@@ -16,7 +16,7 @@ const LmsPricingPage: React.FC = () => {
   return (
     <div className="min-h-screen swirl-bg text-[#202124] selection:bg-[#4ADE80]/30 pb-20 pt-24">
       <div className="max-w-7xl mx-auto px-6 py-8">
-        <Link to="/labs" className="flex items-center gap-2 text-slate-500 hover:text-[#34A853] transition-colors mb-12 text-sm font-bold group">
+        <Link to="/" className="flex items-center gap-2 text-slate-500 hover:text-[#34A853] transition-colors mb-12 text-sm font-bold group">
           <span className="material-symbols-outlined text-sm transition-transform group-hover:-translate-x-1">arrow_back</span> 
           BACK TO LABS
         </Link>
